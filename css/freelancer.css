@@ -649,3 +649,7 @@ fieldset[disabled] .btn-success:hover {
     height: 200px;
     width: 400px;
 }
+
+#email {
+    word-wrap: break-word;
+}
