@@ -6,3 +6,42 @@
 @import "portfolio.scss";
 @import "contact.scss";
 @import "bootstrap-overrides.scss";
+#profileImg {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.center {
+    margin: 0 auto !important;
+    width: 80% !important;
+}
+
+.portfolioImg {
+    height: 200px;
+    width: 400px;
+}
+
+#email {
+    word-wrap: break-word;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.skill {
+    height: 200px;
+    margin: 3rem 2rem;
+}
+
+.overlay {
+    /* display: none; */
+    z-index: 129012951095;
+    background-color: 255 255 255 .90;
+}
