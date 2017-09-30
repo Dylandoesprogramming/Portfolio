@@ -653,3 +653,23 @@ fieldset[disabled] .btn-success:hover {
 #email {
     word-wrap: break-word;
 }
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.skill {
+    height: 200px;
+    margin: 3rem 2rem;
+}
+
+.overlay {
+    /* display: none; */
+    z-index: 129012951095;
+    background-color: 255 255 255 .90;
+}
